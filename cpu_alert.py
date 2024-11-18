@@ -118,7 +118,7 @@ def main():
         action = "IMMEDIATE ACTION IS REQUIRED"
         body = create_body(90, cpu_utilization,action,disk_total,disk_used,disk_free,disk_percent, net_sent,net_recv)
         #body = "CPU utilization has exceeded the threshold."
-        recipient = "desbballqeen@gmail.com"
+        recipient = "<recipient email>"
         send_email(recipient, body, subject)
     elif cpu_utilization >= 70:
         subject = "WARNING CPU Utilization for: " + str(hostname)
