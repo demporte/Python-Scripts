@@ -125,7 +125,7 @@ def main():
         action = "INVESTIGATION IS REQUIRED"
         body = create_body(70, cpu_utilization,action,disk_total,disk_used,disk_free,disk_percent, net_sent,net_recv)
         #body = "CPU utilization has exceeded the threshold."
-        recipient = "desbballqeen@gmail.com"
+        recipient = "<recipients_email>"
         send_email(recipient, body, subject)
 
 
