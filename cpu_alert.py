@@ -129,14 +129,5 @@ def main():
         send_email(recipient, body, subject)
 
 
-
-#send email if cpu utilization is to high 
-   
-    
-    
-  
-
-
-
 if __name__ == "__main__":
     main()
